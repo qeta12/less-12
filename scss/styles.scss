@@ -1,0 +1,36 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+@import "_mixin.scss";
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 83px 136px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 38px;
+        li {
+            @include headerfonts (#3D37F1, 20px, 'Lato', sans-serif, 700);
+        }
+    }
+}
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 311px;
+    .main {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 42px;
+        padding: 260px 126px;
+        h2 {
+            @include headerfonts (#534D4D, 78px,'Lato', sans-serif, 700)
+            
+        }
+    }
+}

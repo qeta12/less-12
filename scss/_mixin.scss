@@ -1,0 +1,7 @@
+@mixin headerfonts ($color, $size, $family, $weight) {
+    color: $color;
+    font-size: $size;
+    font-family: $family;
+    font-weight: $weight;
+}
+
