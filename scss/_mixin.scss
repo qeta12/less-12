@@ -1,4 +1,4 @@
-@mixin headerfonts ($color, $size, $family, $weight) {
+@mixin headerfonts($color, $size, $family, $weight) {
     color: $color;
     font-size: $size;
     font-family: $family;

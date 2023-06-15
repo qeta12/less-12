@@ -13,7 +13,7 @@ header {
         align-items: center;
         gap: 38px;
         li {
-            @include headerfonts (#3D37F1, 20px, 'Lato', sans-serif, 700);
+            @include headerfonts (#3D37F1, 20px, 'Lato', 700);
         }
     }
 }
@@ -29,8 +29,9 @@ section {
         gap: 42px;
         padding: 260px 126px;
         h2 {
-            @include headerfonts (#534D4D, 78px,'Lato', sans-serif, 700)
-            
+            width: 602px;
+            @include headerfonts (#534D4D, 78px,'Lato', 700);
         }
+        
     }
 }
